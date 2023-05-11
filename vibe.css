@@ -32,6 +32,7 @@ aside {
 
 html,
 body {
+	counter-reset: section;
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
