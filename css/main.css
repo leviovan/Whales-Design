@@ -1,0 +1,218 @@
+.header {
+  margin-bottom: 67px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #1c1d28;
+}
+.header__inner {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+}
+.header .logo__link {
+  color: #1c1d28;
+}
+.header .logo {
+  width: 65px;
+  height: 65px;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 410px;
+  flex: 1 1 auto;
+  margin-right: 101px;
+}
+.header .contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 343px;
+  flex: 1 1 auto;
+}
+.header .contacts .number {
+  font-weight: 700;
+}
+.header .contacts .discuss_project {
+  background: #5551f7;
+  color: #ffffff;
+}
+
+.container {
+  height: 100%;
+  max-width: 1162px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.offer {
+  color: white;
+  background: #5551F7;
+  height: 616px;
+  padding-top: 133px;
+}
+.offer__inner {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+.offer__left-side {
+  flex: 0 1 44%;
+  background: url("./img/cooloffer.png") no-repeat;
+  background-position: bottom;
+}
+.offer__title {
+  color: white;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.offer__text {
+  color: white;
+  max-width: 285px;
+  margin: 0 auto;
+}
+.offer__right-side {
+  padding-left: 3px;
+  flex: 0 1 51%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.offer__form {
+  display: grid;
+  grid-template-areas: "a a a a" "b b c c " "d d d d";
+  gap: 35px 50px;
+  padding-right: 67px;
+}
+.offer__form-block:nth-child(1) {
+  grid-area: a;
+}
+.offer__form-block:nth-child(2) {
+  grid-area: b;
+}
+.offer__form-block:nth-child(3) {
+  grid-area: c;
+}
+.offer__form-block:nth-child(4) {
+  grid-area: d;
+}
+.offer__label {
+  margin-bottom: 13px;
+  display: block;
+}
+.offer__input {
+  display: block;
+  width: 100%;
+  background: #5551F7;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.6352941176);
+  padding-bottom: 11px;
+}
+.offer__input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+}
+.offer__input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 12px;
+}
+.offer__btn {
+  margin-top: 42px;
+  color: white;
+  padding: 13px 48px;
+  background: #FF5F68;
+}
+.offer__politic {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 168%;
+  /* identical to box height, or 15px */
+  vertical-align: middle;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.8);
+}
+.offer__politic::before {
+  content: url(./img/galochka.png);
+  display: inline-block;
+  text-align: center;
+  height: 17px;
+  width: 17px;
+  border: solid 1px rgba(255, 255, 255, 0.8);
+  margin-left: 37px;
+  margin-right: 15px;
+}
+
+.footer {
+  background-color: #1C1D28;
+}
+.footer__inner {
+  padding-left: 50px;
+  padding-top: 78px;
+  min-height: 387px;
+  display: flex;
+}
+.footer__contacts {
+  flex: 1 1 30%;
+}
+.footer__img {
+  color: white;
+  margin-bottom: 20px;
+}
+.footer__social_networks {
+  display: flex;
+  width: 142px;
+  justify-content: space-between;
+}
+.footer .social_networks__items {
+  width: 13px;
+  height: 13px;
+  padding: 19px;
+  border: 1px solid #eee;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer .inst {
+  background-image: url("img/instagram.png");
+}
+.footer .be {
+  background-image: url("img/behance.png");
+}
+.footer .dribble {
+  background-image: url("img/dribbble-logo.svg");
+}
+.footer__info {
+  color: white;
+  flex: 1 1 52%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_list {
+  font-size: 12px;
+}
+.footer_list li {
+  margin-bottom: 10px;
+  color: #FFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185%;
+  letter-spacing: 0.24px;
+}
+.footer_list .list__item:first-child {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 145%;
+  /* 21.75px */
+  letter-spacing: 0.3px;
+}/*# sourceMappingURL=main.css.map */

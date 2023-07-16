@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/vibe.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="vibe.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -25,7 +28,7 @@
                     </a>
                 </div>
                 <nav class="header_nav">
-                    <a class="nav__link" href="#">Портфолио</a>
+                    <a class="nav__link" href="./portfolio.html">Портфолио</a>
                     <a class="nav__link" href="#">Услуги и цены</a>
                     <a class="nav__link" href="#">Мы</a>
                     <a class="nav__link" href="#">Контакты</a>
@@ -141,6 +144,92 @@
             </div>
         </div>
     </div>
+    <div class="offer">
+        <div class="container">
+            <div class="offer__inner">
+                <div class="offer__left-side">
+                    <h2 class="offer__title title_h2">Обсудить проект</h2>
+                    <h4 class="offer__text textsub">Крутые проекты начинаются с заполнения этой формы</h4>
+                </div>
+                <div class="offer__right-side">
+                    <form class="offer__form" action="" method="post">
+                        <div class="offer__form-block">
+                            <label class="offer__label" for="name">Ваше имя*</label>
+                            <input placeholder="введите ваше имя" class="offer__input" type="text" id="name"
+                                name="user_name">
+                        </div>
+                        <div class="offer__form-block">
+                            <label class="offer__label" for="number">Телефон*</label>
+                            <input placeholder="введите номер телефона" class="offer__input" type="text" id="number"
+                                name="user_name">
+                        </div>
+                        <div class="offer__form-block">
+                            <label class="offer__label" for="name">Email*</label>
+                            <input placeholder="введите электронный адрес" class="offer__input" type="email" id="email"
+                                name="user_name">
+                        </div>
+                        <div class="offer__form-block">
+                            <label class="offer__label" for="message">Сообщения*</label>
+                            <input placeholder="введите сообщение" class="offer__input" type="text" id="message"
+                                name="user_name"> <br>
+                            <button class="offer__btn button_project" type="button" id="submit" text="Отправить"
+                                name="send"> Отправить</button>
+                            <a class="offer__politic">Согласие на обработку персональных данных</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__contacts">
+                    <img src="css/img/logo1.svg" alt="" class="footer__img">
+                    <div class="footer__social_networks">
+                        <div class="social_networks__items inst"> </div>
+                        <div class="social_networks__items be"></div>
+                        <div class="social_networks__items dribble"></div>
+
+                    </div>
+                </div>
+                <div class="footer__info">
+                    <div class="footer__brifs">
+                        <ul class="footer_list">
+                            <li class="list__item">БРИФЫ</li>
+                            <li class="list__item">Бриф на разработку веб дизайна</li>
+                            <li class="list__item">Бриф на разработку айдентики</li>
+                            <li class="list__item">Бриф на разработку призентации</li>
+                            <li class="list__item">Бриф на разработку логотипа</li>
+                            <li class="list__item">Бриф на разработку иллюстрации</li>
+                        </ul>
+                    </div>
+                    <div class="footer__us">
+                        <ul class="footer_list">
+                            <li class="list__item">О НАС</li>
+                            <li class="list__item">Портфолио</li>
+                            <li class="list__item">Услуги и цены</li>
+                            <li class="list__item">Мы</li>
+                            <li class="list__item">Контакты</li>
+
+                        </ul>
+                    </div>
+                    <div class="footer__contact_info">
+                        <ul class="footer_list">
+                            <li class="list__item">КОНТАКТЫ</li>
+                            <li class="list__item">hello@whalesagency.com</li>
+                            <li class="list__item">+38 (098) 888 10 08</li>
+                            <li class="list__item">+38 (063) 333 10 33</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
 </body>
 
 </html>

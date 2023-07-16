@@ -1,0 +1,271 @@
+.header {
+    margin-bottom: 67px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #1c1d28;
+
+
+    &__inner {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+
+    }
+
+    .logo__link {
+        color: #1c1d28;
+    }
+
+    .logo {
+        width: 65px;
+        height: 65px;
+    }
+
+    &_nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 410px;
+        flex: 1 1 auto;
+        margin-right: 101px;
+    }
+
+
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 343px;
+        flex: 1 1 auto;
+
+        .number {
+            font-weight: 700;
+        }
+
+        .discuss_project {
+            background: #5551f7;
+            color: #ffffff;
+        }
+    }
+}
+
+.container {
+    height: 100%;
+    max-width: 1162px;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.offer {
+    color: white;
+    background: #5551F7;
+    height: 616px;
+    padding-top: 133px;
+
+
+    &__inner {
+        display: flex;
+        height: 100%;
+
+        justify-content: space-between;
+    }
+
+    &__left-side {
+        flex: 0 1 44%;
+
+        background: url("./img/cooloffer.png") no-repeat;
+        background-position: bottom;
+    }
+
+    &__title {
+        color: white;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    &__text {
+        color: white;
+        max-width: 285px;
+        margin: 0 auto;
+    }
+
+    &__right-side {
+        padding-left: 3px;
+        flex: 0 1 51%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    &__form {
+        display: grid;
+        grid-template-areas: "a a a a"
+            "b b c c "
+            "d d d d";
+        gap: 35px 50px;
+        padding-right: 67px;
+    }
+
+    &__form-block:nth-child(1) {
+        grid-area: a;
+    }
+
+    &__form-block:nth-child(2) {
+        grid-area: b;
+    }
+
+    &__form-block:nth-child(3) {
+        grid-area: c;
+    }
+
+    &__form-block:nth-child(4) {
+        grid-area: d;
+    }
+
+    &__label {
+        margin-bottom: 13px;
+        display: block;
+    }
+
+    &__input {
+        display: block;
+        width: 100%;
+        background: #5551F7;
+        border-bottom: 2px solid #ffffffa2;
+        padding-bottom: 11px;
+    }
+
+    &__input::placeholder {
+        color: rgba(255, 255, 255, 0.3);
+        font-size: 12px;
+    }
+
+    &__btn {
+        margin-top: 42px;
+        color: white;
+        padding: 13px 48px;
+        background: #FF5F68;
+    }
+
+    &__politic {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 168%;
+        /* identical to box height, or 15px */
+        vertical-align: middle;
+        letter-spacing: 0.02em;
+
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    &__politic::before {
+        content: url(./img/galochka.png);
+        display: inline-block;
+        text-align: center;
+        height: 17px;
+        width: 17px;
+        border: solid 1px rgba(255, 255, 255, 0.8);
+        margin-left: 37px;
+        margin-right: 15px;
+    }
+}
+
+.footer {
+    background-color: #1C1D28;
+
+    &__inner {
+        padding-left: 50px;
+        padding-top: 78px;
+        min-height: 387px;
+        display: flex;
+    }
+
+    &__contacts {
+        flex: 1 1 30%;
+    }
+
+    &__img {
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    &__social_networks {
+        display: flex;
+        width: 142px;
+        justify-content: space-between;
+    }
+
+    .social_networks__items {
+        width: 13px;
+        height: 13px;
+        padding: 19px;
+        border: 1px solid #eee;
+        border-radius: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .inst {
+        background-image: url("img/instagram.png");
+
+    }
+
+    .be {
+        background-image: url("img/behance.png");
+    }
+
+    .dribble {
+        background-image: url("img/dribbble-logo.svg");
+    }
+
+    &__info {
+        color: white;
+        flex: 1 1 52%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__brifs {}
+
+    &_list {
+        font-size: 12px;
+
+        li {
+            margin-bottom: 10px;
+            color: #FFF;
+
+
+            font-style: normal;
+            font-weight: 400;
+            line-height: 185%;
+            letter-spacing: 0.24px;
+        }
+
+        .list__item:first-child {
+            font-size: 15px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 145%;
+            /* 21.75px */
+            letter-spacing: 0.3px;
+        }
+    }
+
+
+    &__us {}
+
+    &__contact_info {}
+}
